@@ -17,10 +17,10 @@ export const Story = () => {
       {objStory.map(i =>
         <div className="story">
           <div className="imagem">
-            <img src="assets/9gag.svg" alt="9gag" />
+            <img src={i.src} alt={i.alt} />
           </div>
           <Usuario>
-            9gag
+            {i.alt}
           </Usuario>
         </div>
       )}
