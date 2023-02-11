@@ -1,12 +1,12 @@
 import ReactDOM from "react-dom"
 import { NavBar } from "./components/NavBar"
-import { Sugestao } from "./components/Sugestao"
+import { Corpo } from "./components/Corpo"
 
 function App() {
     return (
         <>
             <NavBar src="../assets/logo.svg"/>
-            <Sugestao />
+            <Corpo />
         </>
     )
 }
