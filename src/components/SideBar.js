@@ -8,6 +8,9 @@ export const SideBar = () => {
   const links = "Sobre • Ajuda • Imprensa • API • Carreiras • Privacidade • Termos • Localizações • Contas mais relevantes • Hashtags • Idioma"
   const copyright = "© 2021 INSTAGRAM DO FACEBOOK"
 
+  const titulo = "Sugestões para você"
+  const verTudo = "Ver Tudo"
+
   return (
     <div className="sidebar">
       {objSideBar.map(i =>
@@ -21,7 +24,7 @@ export const SideBar = () => {
           </div>
         </Usuario>
       )}
-      <Sugestoes />
+      <Sugestoes titulo={titulo} verTudo={verTudo} />
 
       <Links>
         {links}

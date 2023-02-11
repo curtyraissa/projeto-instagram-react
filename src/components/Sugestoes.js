@@ -1,16 +1,13 @@
 import { Sugestao } from "./Sugestao"
 
-export const Sugestoes = () => {
-  const titulo = "Sugestões para você"
-  const verTudo = "Ver Tudo"
-  
+export const Sugestoes = (props) => {
   return (
-      <div className="sugestoes">
-        <div className="titulo">
-          {titulo}
-          <div>{verTudo}</div>
-        </div>
-        <Sugestao />
+    <div className="sugestoes">
+      <div className="titulo">
+        {props.titulo}
+        <div>{props.verTudo}</div>
       </div>
+      <Sugestao />
+    </div>
   )
 }

@@ -8,7 +8,7 @@ export const Sugestao = () => {
     { src: "assets/adorable_animals.svg", nome: "adorable_animals", razao: "Segue você", seguir: "Seguir" },
     { src: "assets/smallcutecats.svg", nome: "smallcutecats", razao: "Segue você", seguir: "Seguir" }
   ];
-
+  
   return (
     <>
       {objSugestao.map(i =>
