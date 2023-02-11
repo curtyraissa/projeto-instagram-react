@@ -2,10 +2,10 @@ import { Story } from "./Story"
 
 export const Stories = () => {
     return (
-        <div class="stories">
+        <div className="stories">
             <Story />
 
-            <div class="setinha">
+            <div className="setinha">
                 <ion-icon name="chevron-forward-circle"></ion-icon>
             </div>
         </div>

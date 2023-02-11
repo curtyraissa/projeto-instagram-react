@@ -4,8 +4,8 @@ import { SideBar } from "./SideBar"
 
 export const Corpo = () => {
     return (
-        <div class="corpo">
-            <div class="esquerda">
+        <div className="corpo">
+            <div className="esquerda">
                 <Stories />
                 <Posts />
             </div>

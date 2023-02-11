@@ -5,8 +5,8 @@ export const Sugestoes = () => {
   const verTudo = "Ver Tudo"
   
   return (
-      <div class="sugestoes">
-        <div class="titulo">
+      <div className="sugestoes">
+        <div className="titulo">
           {titulo}
           <div>{verTudo}</div>
         </div>

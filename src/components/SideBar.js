@@ -7,10 +7,10 @@ export const SideBar = () => {
   const copyright = "© 2021 INSTAGRAM DO FACEBOOK"
 
   return (
-    <div class="sidebar">
+    <div className="sidebar">
       <Usuario>
       <img src="assets/img/catanacomics.svg" alt="imagem de perfil" />
-        <div class="texto">
+        <div className="texto">
           <span>
             <strong>{userName}</strong>
             <ion-icon name="pencil"></ion-icon>
@@ -20,11 +20,11 @@ export const SideBar = () => {
 
       <Sugestoes />
 
-      <div class="links">
+      <div className="links">
         {links}
       </div>
 
-      <div class="copyright">
+      <div className="copyright">
        {copyright}
       </div>
     </div>

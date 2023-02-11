@@ -3,23 +3,23 @@ import { Usuario } from "./Usuario"
 export const Post = () => {
   return (
     <>
-      <div class="post">
-        <div class="topo">
+      <div className="post">
+        <div className="topo">
           <Usuario>
             <img src="assets/img/meowed.svg" alt="meowed" />
             meowed
           </Usuario>
-          <div class="acoes">
+          <div className="acoes">
             <ion-icon name="ellipsis-horizontal"></ion-icon>
           </div>
         </div>
 
-        <div class="conteudo">
+        <div className="conteudo">
           <img src="assets/img/gato-telefone.svg" alt="gato-telefone" />
         </div>
 
-        <div class="fundo">
-          <div class="acoes">
+        <div className="fundo">
+          <div className="acoes">
             <div>
               <ion-icon name="heart-outline"></ion-icon>
               <ion-icon name="chatbubble-outline"></ion-icon>
@@ -30,32 +30,32 @@ export const Post = () => {
             </div>
           </div>
 
-          <div class="curtidas">
+          <div className="curtidas">
             <img src="assets/img/respondeai.svg" alt="respondeai" />
-            <div class="texto">
+            <div className="texto">
               Curtido por <strong>respondeai</strong> e <strong>outras 101.523 pessoas</strong>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="post">
-        <div class="topo">
+      <div className="post">
+        <div className="topo">
           <Usuario>
             <img src="assets/img/barked.svg" alt="barked" />
             barked
           </Usuario>
-          <div class="acoes">
+          <div className="acoes">
             <ion-icon name="ellipsis-horizontal"></ion-icon>
           </div>
         </div>
 
-        <div class="conteudo">
+        <div className="conteudo">
           <img src="assets/img/dog.svg" alt="dog" />
         </div>
 
-        <div class="fundo">
-          <div class="acoes">
+        <div className="fundo">
+          <div className="acoes">
             <div>
               <ion-icon name="heart-outline"></ion-icon>
               <ion-icon name="chatbubble-outline"></ion-icon>
@@ -66,9 +66,9 @@ export const Post = () => {
             </div>
           </div>
 
-          <div class="curtidas">
+          <div className="curtidas">
             <img src="assets/img/adorable_animals.svg" alt="adorable_animals" />
-            <div class="texto">
+            <div className="texto">
               Curtido por <strong>adorable_animals</strong> e <strong>outras 99.159 pessoas</strong>
             </div>
           </div>
