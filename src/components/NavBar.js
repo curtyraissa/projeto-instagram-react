@@ -1,11 +1,13 @@
 export const NavBar = ({src}) => {
-  const objNames = [
+  const objIcons = [
     "paper-plane-outline",
     "compass-outline",
     "heart-outline",
     "person-outline"
   ]
   
+  const iconPaper = objIcons[0]
+
   return (
     <div className="navbar">
       <div className="container">
@@ -20,11 +22,11 @@ export const NavBar = ({src}) => {
         </div>
 
         <div className="icones">
-          {objNames.map((n) => <ion-icon name={n}></ion-icon>)}
+          {objIcons.map((i) => <ion-icon name={i}></ion-icon>)}
         </div>
 
         <div className="icones-mobile">
-          <ion-icon name="paper-plane-outline"></ion-icon>
+          <ion-icon name={iconPaper}></ion-icon>
         </div>
       </div>
     </div>
