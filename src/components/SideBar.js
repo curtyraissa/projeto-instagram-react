@@ -3,7 +3,7 @@ import { Usuario } from "./Usuario"
 
 export const SideBar = () => {
   const objSideBar = [
-    { src: "assets/img/catanacomics.svg", alt: "imagem de perfil", perfil: "catanacomics" }
+    { src: "assets/catanacomics.svg", alt: "imagem de perfil", perfil: "catanacomics" }
   ]
   const links = "Sobre • Ajuda • Imprensa • API • Carreiras • Privacidade • Termos • Localizações • Contas mais relevantes • Hashtags • Idioma"
   const copyright = "© 2021 INSTAGRAM DO FACEBOOK"

@@ -5,7 +5,7 @@ export const Story = () => {
         <>
             <div className="story">
                 <div className="imagem">
-                    <img src="assets/img/9gag.svg" alt="9gag" />
+                    <img src="assets/9gag.svg" alt="9gag" />
                 </div>
                 <Usuario>
                     9gag
@@ -14,7 +14,7 @@ export const Story = () => {
 
             <div className="story">
                 <div className="imagem">
-                    <img src="assets/img/meowed.svg" alt="meowed" />
+                    <img src="assets/meowed.svg" alt="meowed" />
                 </div>
                 <Usuario>
                     meowed
@@ -23,7 +23,7 @@ export const Story = () => {
 
             <div className="story">
                 <div className="imagem">
-                    <img src="assets/img/barked.svg" alt="barked" />
+                    <img src="assets/barked.svg" alt="barked" />
                 </div>
                 <Usuario>
                     barked
@@ -32,7 +32,7 @@ export const Story = () => {
 
             <div className="story">
                 <div className="imagem">
-                    <img src="assets/img/nathanwpylestrangeplanet.svg" alt="nathanwpylestrangeplanet" />
+                    <img src="assets/nathanwpylestrangeplanet.svg" alt="nathanwpylestrangeplanet" />
                 </div>
                 <Usuario>
                     nathanwpylestrangeplanet
@@ -41,7 +41,7 @@ export const Story = () => {
 
             <div className="story">
                 <div className="imagem">
-                    <img src="assets/img/wawawicomics.svg" alt="wawawicomics" />
+                    <img src="assets/wawawicomics.svg" alt="wawawicomics" />
                 </div>
                 <Usuario>
                     wawawicomics
@@ -50,7 +50,7 @@ export const Story = () => {
 
             <div className="story">
                 <div className="imagem">
-                    <img src="assets/img/respondeai.svg" alt="respondeai" />
+                    <img src="assets/respondeai.svg" alt="respondeai" />
                 </div>
                 <Usuario>
                     respondeai
@@ -59,7 +59,7 @@ export const Story = () => {
 
             <div className="story">
                 <div className="imagem">
-                    <img src="assets/img/filomoderna.svg" alt="filomoderna" />
+                    <img src="assets/filomoderna.svg" alt="filomoderna" />
                 </div>
                 <Usuario>
                     filomoderna
@@ -68,7 +68,7 @@ export const Story = () => {
 
             <div className="story">
                 <div className="imagem">
-                    <img src="assets/img/memeriagourmet.svg" alt="memeriagourmet" />
+                    <img src="assets/memeriagourmet.svg" alt="memeriagourmet" />
                 </div>
                 <Usuario>
                     memeriagourmet
