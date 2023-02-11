@@ -1,11 +1,11 @@
-const objNames = [
-  "paper-plane-outline",
-  "compass-outline",
-  "heart-outline",
-  "person-outline"
-]
-
 export const NavBar = ({src}) => {
+  const objNames = [
+    "paper-plane-outline",
+    "compass-outline",
+    "heart-outline",
+    "person-outline"
+  ]
+  
   return (
     <div className="navbar">
       <div className="container">
