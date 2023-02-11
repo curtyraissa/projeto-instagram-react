@@ -1,4 +1,5 @@
 import { Sugestoes } from "./Sugestoes"
+import { Usuario } from "./Usuario"
 
 export const SideBar = () => {
   const userName = "catanacomics"
@@ -7,15 +8,15 @@ export const SideBar = () => {
 
   return (
     <div class="sidebar">
-      <div class="usuario">
-        <img src="assets/img/catanacomics.svg" alt="imagem de perfil" />
+      <Usuario>
+      <img src="assets/img/catanacomics.svg" alt="imagem de perfil" />
         <div class="texto">
           <span>
             <strong>{userName}</strong>
             <ion-icon name="pencil"></ion-icon>
           </span>
         </div>
-      </div>
+      </Usuario>
 
       <Sugestoes />
 

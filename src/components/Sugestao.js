@@ -1,3 +1,5 @@
+import { Usuario } from "./Usuario";
+
 export const Sugestao = () => {
   const objSugestao = [
     { src: "assets/bad.vibes.memes.svg", nome: "bad vibes memes", razao: "Segue você", seguir: "Seguir" },
@@ -11,14 +13,14 @@ export const Sugestao = () => {
     <>
       {objSugestao.map(i =>
         <div className="sugestao">
-          <div className="usuario">
+          <Usuario>
             <img src={i.src} alt={i.nome} />
             <div className="texto">
               <div className="nome">{i.nome}</div>
               <div className="razao">{i.razao}</div>
             </div>
-          </div>
-          <div class="seguir">{i.seguir}</div>
+          </Usuario>
+          <div className="seguir">{i.seguir}</div>
         </div>
       )}
     </>

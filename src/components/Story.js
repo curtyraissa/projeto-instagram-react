@@ -1,3 +1,5 @@
+import { Usuario } from "./Usuario"
+
 export const Story = () => {
     return (
         <>
@@ -5,72 +7,72 @@ export const Story = () => {
                 <div class="imagem">
                     <img src="assets/img/9gag.svg" alt="9gag" />
                 </div>
-                <div class="usuario">
+                <Usuario>
                     9gag
-                </div>
+                </Usuario>
             </div>
 
             <div class="story">
                 <div class="imagem">
                     <img src="assets/img/meowed.svg" alt="meowed" />
                 </div>
-                <div class="usuario">
+                <Usuario>
                     meowed
-                </div>
+                </Usuario>
             </div>
 
             <div class="story">
                 <div class="imagem">
                     <img src="assets/img/barked.svg" alt="barked" />
                 </div>
-                <div class="usuario">
+                <Usuario>
                     barked
-                </div>
+                </Usuario>
             </div>
 
             <div class="story">
                 <div class="imagem">
                     <img src="assets/img/nathanwpylestrangeplanet.svg" alt="nathanwpylestrangeplanet" />
                 </div>
-                <div class="usuario">
+                <Usuario>
                     nathanwpylestrangeplanet
-                </div>
+                </Usuario>
             </div>
 
             <div class="story">
                 <div class="imagem">
                     <img src="assets/img/wawawicomics.svg" alt="wawawicomics" />
                 </div>
-                <div class="usuario">
+                <Usuario>
                     wawawicomics
-                </div>
+                </Usuario>
             </div>
 
             <div class="story">
                 <div class="imagem">
                     <img src="assets/img/respondeai.svg" alt="respondeai" />
                 </div>
-                <div class="usuario">
+                <Usuario>
                     respondeai
-                </div>
+                </Usuario>
             </div>
 
             <div class="story">
                 <div class="imagem">
                     <img src="assets/img/filomoderna.svg" alt="filomoderna" />
                 </div>
-                <div class="usuario">
+                <Usuario>
                     filomoderna
-                </div>
+                </Usuario>
             </div>
 
             <div class="story">
                 <div class="imagem">
                     <img src="assets/img/memeriagourmet.svg" alt="memeriagourmet" />
                 </div>
-                <div class="usuario">
+                <Usuario>
                     memeriagourmet
-                </div>
+                </Usuario>
             </div>
         </>
     )

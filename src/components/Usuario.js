@@ -1,7 +1,7 @@
-export const Usuario = () =>{
+export const Usuario = (props) =>{
     return(
-        <>
-        Usuario
-        </>
+        <div className="usuario">
+            {props.children}
+        </div>
     )
 }
