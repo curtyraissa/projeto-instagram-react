@@ -9,8 +9,8 @@ export const Post = () => {
 
   return (
     <>
-      {objPost.map(i => 
-          <div className="post">
+      {objPost.map(i =>
+        <div className="post">
           <div className="topo">
             <Usuario>
               <img src={i.srcTopo} alt={i.altTopo} />
@@ -20,11 +20,11 @@ export const Post = () => {
               <ion-icon name="ellipsis-horizontal"></ion-icon>
             </div>
           </div>
-  
+
           <div className="conteudo">
             <img src={i.srcPost} alt={i.altPost} />
           </div>
-  
+
           <div className="fundo">
             <div className="acoes">
               <div>
@@ -36,7 +36,7 @@ export const Post = () => {
                 <ion-icon name="bookmark-outline"></ion-icon>
               </div>
             </div>
-  
+
             <div className="curtidas">
               <img src={i.srcLike} alt={i.altLike} />
               <div className="texto">
@@ -45,8 +45,8 @@ export const Post = () => {
             </div>
           </div>
         </div>
-        )}
-      
+      )}
+
     </>
   )
 }

@@ -1,11 +1,11 @@
-export const NavBar = ({src}) => {
+export const NavBar = ({ src }) => {
   const objIcons = [
     "paper-plane-outline",
     "compass-outline",
     "heart-outline",
     "person-outline"
   ]
-  
+
   const iconPaper = objIcons[0]
 
   return (

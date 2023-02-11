@@ -3,14 +3,14 @@ import { Posts } from "./Posts"
 import { SideBar } from "./SideBar"
 
 export const Corpo = () => {
-    return (
-        <div className="corpo">
-            <div className="esquerda">
-                <Stories />
-                <Posts />
-            </div>
-            <SideBar />
-        </div>
-    )
+  return (
+    <div className="corpo">
+      <div className="esquerda">
+        <Stories />
+        <Posts />
+      </div>
+      <SideBar />
+    </div>
+  )
 
 }
