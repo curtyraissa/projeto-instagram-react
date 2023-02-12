@@ -1,28 +1,18 @@
 import { Usuario } from "./Usuario";
 
-export const Sugestao = () => {
-  const objSugestao = [
-    { src: "assets/bad.vibes.memes.svg", nome: "bad vibes memes", razao: "Segue você", seguir: "Seguir" },
-    { src: "assets/chibirdart.svg", nome: "chibirdart", razao: "Segue você", seguir: "Seguir" },
-    { src: "assets/razoesparaacreditar.svg", nome: "razoesparaacreditar", razao: "Novo no Instagram", seguir: "Seguir" },
-    { src: "assets/adorable_animals.svg", nome: "adorable_animals", razao: "Segue você", seguir: "Seguir" },
-    { src: "assets/smallcutecats.svg", nome: "smallcutecats", razao: "Segue você", seguir: "Seguir" }
-  ];
-
+export const Sugestao = (props) => {
   return (
     <>
-      {objSugestao.map(i =>
         <div className="sugestao">
           <Usuario>
-            <img src={i.src} alt={i.nome} />
+            <img src={props.src} alt={props.nome} />
             <div className="texto">
-              <div className="nome">{i.nome}</div>
-              <div className="razao">{i.razao}</div>
+              <div className="nome">{props.nome}</div>
+              <div className="razao">{props.razao}</div>
             </div>
           </Usuario>
-          <div className="seguir">{i.seguir}</div>
+          <div className="seguir">{props.seguir}</div>
         </div>
-      )}
     </>
 
   )
