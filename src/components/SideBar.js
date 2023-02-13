@@ -1,30 +1,36 @@
-import { Sugestoes } from "./Sugestoes"
+import { useState } from "react"
 import { Usuario } from "./Usuario"
+import { Sugestoes } from "./Sugestoes"
 
-export const SideBar = () => {
-  const objSideBar = [
-    { src: "assets/catanacomics.svg", alt: "imagem de perfil", perfil: "catanacomics" }
-  ]
+export default function Sidebar(props) {
+  const [nome, setNome] = useState("catanacomics")
+  const [foto, setFoto] = useState("assets/catanacomics.svg")
   const links = "Sobre • Ajuda • Imprensa • API • Carreiras • Privacidade • Termos • Localizações • Contas mais relevantes • Hashtags • Idioma"
   const copyright = "© 2021 INSTAGRAM DO FACEBOOK"
 
-  const titulo = "Sugestões para você"
-  const verTudo = "Ver Tudo"
+  const handleNome = () => {
+    const novoNome = prompt("Escolha um novo nome de usuário: ")
+    setNome(!novoNome ? nome : novoNome)
+  }
+
+  const handleFoto = () => {
+    const novaFoto = prompt("Insira o link da sua foto: ")
+    setFoto(!novaFoto ? foto : novaFoto)
+  }
 
   return (
-    <div className="sidebar">
-      {objSideBar.map(i =>
-        <Usuario>
-          <img src={i.src} alt={i.alt} />
-          <div className="texto">
-            <span>
-              <strong>{i.perfil}</strong>
-              <ion-icon name="pencil"></ion-icon>
-            </span>
-          </div>
-        </Usuario>
-      )}
-      <Sugestoes titulo={titulo} verTudo={verTudo} />
+    <div class="sidebar">
+      <Usuario>
+        <img src={foto} alt="imagem de perfil" onClick={handleFoto} data-test="profile-image" />
+        <div class="texto">
+          <span data-test="name">
+            <strong>{nome}</strong>
+            <ion-icon name="pencil" onClick={handleNome} data-test="edit-name"></ion-icon>
+          </span>
+        </div>
+      </Usuario>
+
+      <Sugestoes />
 
       <Links>
         {links}
@@ -34,6 +40,7 @@ export const SideBar = () => {
         {copyright}
       </Copyright>
     </div>
+
   )
 }
 

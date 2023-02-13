@@ -1,6 +1,6 @@
 import { Stories } from "./Stories"
 import { Posts } from "./Posts"
-import { SideBar } from "./SideBar"
+import SideBar from "./SideBar"
 
 export const Corpo = () => {
   return (
