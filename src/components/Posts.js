@@ -27,7 +27,7 @@ export const Posts = () => {
       altPost: "gato-telefone", 
       srcLike: "assets/respondeai.svg", 
       altLike: "respondeai", 
-      like: 1
+      like: 1.000
     }
   ]
 

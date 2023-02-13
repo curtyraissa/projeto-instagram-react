@@ -7,7 +7,7 @@ export const Story = (props) => {
         <img src={props.src} alt={props.alt} />
       </div>
       <Usuario>
-        {props.nome}
+        {props.alt}
       </Usuario>
     </div>
   )

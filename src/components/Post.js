@@ -5,7 +5,7 @@ export const Post = (props) => {
   const [salvar, setSalvar] = useState("bookmark-outline")
   const [like, setLike] = useState("heart-outline")
   const [cor, setCor] = useState("heart-outline")
-  const [curtir, setCurtir] = useState(props.number)
+  const [curtir, setCurtir] = useState(props.like)
 
   function salvarPost() {
     if (salvar === "bookmark-outline") {
@@ -67,7 +67,7 @@ export const Post = (props) => {
           <div className="curtidas">
             <img src={props.srcLike} alt={props.altLike} />
             <div className="texto" data-test="likes-number">
-              Curtido por <strong>{props.altLike}</strong> e <strong>outras {curtir} {props.like === 1 ? "pessoa" : "pessoas"}</strong>
+              Curtido por <strong>{props.altLike}</strong> e <strong>outras {curtir.toFixed(3)} {props.like === 1 ? "pessoa" : "pessoas"}</strong>
             </div>
           </div>
         </div>
