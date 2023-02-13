@@ -9,15 +9,14 @@ export const Sugestoes = (props) => {
     { src: "assets/smallcutecats.svg", nome: "smallcutecats", razao: "Segue você", seguir: "Seguir" }
   ];
 
-
   return (
     <div className="sugestoes">
-      <div className="titulo">
-        {props.titulo}
-        <div>{props.verTudo}</div>
+      <div class="titulo">
+        Sugestões para você
+        <div>Ver tudo</div>
       </div>
       {objSugestao.map(i =>
-        <Sugestao key={i.nome} src={i.src} razao={i.razao} seguir={i.seguir}/>
+        <Sugestao key={i.nome} src={i.src} razao={i.razao} seguir={i.seguir} />
       )}
     </div>
   )
