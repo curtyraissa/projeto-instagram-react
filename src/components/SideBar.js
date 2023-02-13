@@ -19,10 +19,10 @@ export default function Sidebar(props) {
   }
 
   return (
-    <div class="sidebar">
+    <div className="sidebar">
       <Usuario>
         <img src={foto} alt="imagem de perfil" onClick={handleFoto} data-test="profile-image" />
-        <div class="texto">
+        <div className="texto">
           <span data-test="name">
             <strong>{nome}</strong>
             <ion-icon name="pencil" onClick={handleNome} data-test="edit-name"></ion-icon>

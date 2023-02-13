@@ -11,7 +11,7 @@ export const Sugestoes = (props) => {
 
   return (
     <div className="sugestoes">
-      <div class="titulo">
+      <div className="titulo">
         Sugestões para você
         <div>Ver tudo</div>
       </div>

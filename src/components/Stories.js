@@ -15,7 +15,7 @@ export const Stories = () => {
   return (
     <div className="stories">
       {objStory.map(i =>
-        <Story key={i.alt} src={i.src} alt={i.nome} usuario={i.nome} />
+        <Story key={i.nome} src={i.src} alt={i.nome} usuario={i.nome} />
       )}
       <div className="setinha">
         <ion-icon name="chevron-forward-circle"></ion-icon>

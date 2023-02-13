@@ -22,7 +22,7 @@ export const NavBar = ({ src }) => {
         </div>
 
         <div className="icones">
-          {objIcons.map((i) => <ion-icon name={i}></ion-icon>)}
+          {objIcons.map((i) => <ion-icon key={i} name={i}></ion-icon>)}
         </div>
 
         <div className="icones-mobile">
