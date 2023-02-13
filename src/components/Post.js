@@ -37,7 +37,7 @@ export const Post = (props) => {
 
   return (
     <>
-      <div className="post">
+      <div className="post" data-test="post">
         <div className="topo">
           <Usuario>
             <img src={props.srcTopo} alt={props.altTopo} />
