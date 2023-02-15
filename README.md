@@ -1,9 +1,7 @@
 ![Imagem 1](./layout-projeto.png "Imagem 1")
 
-<h1 align="center">Bate Papo UOL </h1>
+<h1 align="center">Instagram - ReactJS </h1>
 
-<p align="justify">Esse desafio, foi desenvolver a aplicação do Bate Papo UOL a partir de um layout, colocando em prática tudo o que aprendi.</p>
-<hr/>
 ✅ Requisitos
 
 - Geral
@@ -109,7 +107,8 @@
 
 - [Figma](https://www.figma.com/file/TRh4w3iZq7LyjaLig6sCgb/Projeto-Instagram-React?node-id=0%3A1&t=NIcIwF8Vly0kEi0b-0).<br/>
 - [Deploy](https://projeto7-instagramreact-self.vercel.app/).<br/>
-_
+
+<hr/>
 
 ## 💬 &nbsp;Contact
 <img align="left" src="https://avatars.githubusercontent.com/curtyraissa?size=100">
