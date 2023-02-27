@@ -36,9 +36,6 @@
             - `Stories` (onde cada item será um componente diferente, o `Story`)
             - `Posts` (onde cada item será um componente diferente, o `Post`)
             - `Sugestoes` (onde cada item será um componente diferente, o `Sugestao`)
-            - Se não entender o que é cada componente, clique aqui 🙂
-                
-                ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/145d7991-20e6-47a2-ac0f-1775ef9ec439/Untitled.png)
                 
     - [x]  Todos os itens repetitivos do projeto devem ser representados como Arrays/Objetos nos componentes e renderizados no JSX usando `map`. No projeto, esses itens são:
         - Os stories (deve ter pelo menos 3 stories)
